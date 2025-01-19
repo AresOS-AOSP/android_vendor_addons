@@ -18,7 +18,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/addons/overlay/common
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     vendor/addons/overlay/common/packages/apps/Launcher3
 
-
 ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
     UdfpsIcons \
@@ -192,100 +191,71 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     IconPackCircularAndroidOverlay \
     IconPackCircularLauncherOverlay \
-    IconPackCircularSettingsOverlay \
     IconPackCircularSystemUIOverlay \
     IconPackCircularThemePickerOverlay \
     IconPackVictorAndroidOverlay \
     IconPackVictorLauncherOverlay \
-    IconPackVictorSettingsOverlay \
     IconPackVictorSystemUIOverlay \
     IconPackVictorThemePickerOverlay \
     IconPackSamAndroidOverlay \
     IconPackSamLauncherOverlay \
-    IconPackSamSettingsOverlay \
     IconPackSamSystemUIOverlay \
     IconPackSamThemePickerOverlay \
     IconPackKaiAndroidOverlay \
     IconPackKaiLauncherOverlay \
-    IconPackKaiSettingsOverlay \
     IconPackKaiSystemUIOverlay \
     IconPackKaiThemePickerOverlay \
     IconPackFilledAndroidOverlay \
     IconPackFilledLauncherOverlay \
-    IconPackFilledSettingsOverlay \
     IconPackFilledSystemUIOverlay \
     IconPackFilledThemePickerOverlay \
     IconPackPUIAndroidOverlay \
     IconPackPUILauncherOverlay \
-    IconPackPUISettingsOverlay \
     IconPackPUISystemUIOverlay \
     IconPackPUIThemePickerOverlay \
     IconPackRoundedAndroidOverlay \
     IconPackRoundedLauncherOverlay \
-    IconPackRoundedSettingsOverlay \
     IconPackRoundedSystemUIOverlay \
     IconPackRoundedThemePickerOverlay \
     IconPackNostalgicAndroidOverlay \
     IconPackNostalgicLauncherOverlay \
-    IconPackNostalgicSettingsOverlay \
     IconPackNostalgicSystemUIOverlay \
     IconPackNostalgicThemePickerOverlay \
     IconPackOOSAndroidOverlay \
     IconPackOOSLauncherOverlay \
-    IconPackOOSSettingsOverlay \
     IconPackOOSSystemUIOverlay \
     IconPackOOSThemePickerOverlay \
     IconPackOutlineAndroidOverlay \
     IconPackOutlineLauncherOverlay \
-    IconPackOutlineSettingsOverlay \
     IconPackOutlineSystemUIOverlay \
     IconPackAcherusAndroidOverlay \
     IconPackAcherusLauncherOverlay \
-    IconPackAcherusSettingsOverlay \
     IconPackAcherusSystemUIOverlay \
     IconPackAuroraAndroidOverlay \
     IconPackAuroraSystemUIOverlay \
     IconPackGradiconAndroidOverlay \
     IconPackGradiconSystemUIOverlay \
-    IconPackLornAndroidOverlay \
-    IconPackLornSystemUIOverlay \
     IconPackPlumpySystemUIOverlay \
     IconPackPlumpyAndroidOverlay \
     IconPackXperiaAndroidOverlay \
-    IconPackXperiaSettingsOverlay \
     IconPackXperiaSystemUIOverlay
 
 # Icon Shapes
 PRODUCT_PACKAGES += \
     IconShapeArchOverlay \
-    IconShapeCloudyOverlay \
     IconShapeCylinderOverlay \
-    IconShapeFlowerOverlay \
-    IconShapeFourSidedCookieOverlay \
-    IconShapeHeartOverlay \
-    IconShapeHexagonOverlay \
     IconShapeIosOverlay \
     IconShapeLeafOverlay \
-    IconShapeMeowOverlay \
     IconShapePebbleOverlay \
-    IconShapeRoundedHexagonOverlay \
-    IconShapeRoundedRectOverlay \
     IconShapeSamsungOverlay \
-    IconShapeScrollOverlay \
-    IconShapeSevenSidedCookieOverlay \
     IconShapeStretchedOverlay \
-    IconShapeSquareOverlay \
     IconShapeSquircleOverlay \
-    IconShapeStretchedOverlay \
-    IconShapeTaperedRectOverlay \
-    IconShapeTeardropOverlay \
-    IconShapeVesselOverlay
+    IconShapeTeardropOverlay
 
 # Navbar styles
 PRODUCT_PACKAGES += \
     NavbarAndroidOverlay \
     NavbarAsusOverlay \
-    NavbarDoraOverlay \
     NavbarMotoOverlay \
     NavbarNexusOverlay \
     NavbarOldOverlay \
@@ -294,70 +264,29 @@ PRODUCT_PACKAGES += \
     NavbarSammyOverlay \
     NavbarTecnoCamonOverlay
 
-# Power Menu Themes
-PRODUCT_PACKAGES += \
-    PowerCyberPunk \
-    PowerDuoline \
-    PowerFluid \
-    PowerIOS \
-    PowerLayers
-
 # Signal Icons
 PRODUCT_PACKAGES += \
-    AquariumSignalOverlay \
     BarsSignalOverlay \
-    ButterflySignalOverlay \
     CircleSignalOverlay \
-    DaunSignalOverlay \
-    DecSignalOverlay \
-    DeepSignalOverlay \
-    DoraSignalOverlay \
-    EqualSignalOverlay \
-    FanSignalOverlay \
     GradiconSignalOverlay \
-    HuaweiSignalOverlay \
-    InsideSignalOverlay \
     IosSignalOverlay \
-    MiniSignalOverlay \
     NothingDotSignalOverlay \
-    OdinSignalOverlay \
-    PillsSignalOverlay \
-    RelSignalOverlay \
-    RomanSignalOverlay \
     RoundSignalOverlay \
-    ScrollSignalOverlay \
-    SeaSignalOverlay \
-    SneakySignalOverlay \
-    StackSignalOverlay \
     StrokeSignalOverlay \
     WannuiSignalOverlay \
-    WavySignalOverlay \
-    WindowsSignalOverlay \
-    WingSignalOverlay \
     XperiaSignalOverlay \
     ZigZagSignalOverlay \
-    AuroraSignalOverlay \
-    FaintUISignalOverlay \
-    ForlornSignalOverlay \
     PlumpySignalOverlay
 
 # WiFi Icons
 PRODUCT_PACKAGES += \
     BarsWiFiOverlay \
-    DoraWiFiOverlay \
     GradiconWiFiOverlay \
-    InsideWiFiOverlay \
     NothingDotWiFiOverlay \
     RoundWiFiOverlay \
-    SneakyWiFiOverlay \
     StrokeWiFiOverlay \
-    WavyWiFiOverlay \
-    WeedWiFiOverlay \
     XperiaWiFiOverlay \
     ZigZagWiFiOverlay \
-    AuroraWiFiOverlay \
-    FaintUIWiFiOverlay \
-    ForlornWiFiOverlay \
     PlumpyWiFiOverlay
 
 # Themes
