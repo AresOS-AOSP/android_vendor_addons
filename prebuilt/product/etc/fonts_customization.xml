@@ -936,6 +936,9 @@
     <family customizationType="new-named-family" name="nothingdot57">
         <font weight="400" style="normal" postScriptName="Ndot-57">NDot57Caps.otf</font>
     </family>
+    <family customizationType="new-named-family" name="NDot77JPExtended">
+        <font weight="400" style="normal" postScriptName="Ndot77JPExtended">Ndot77JPExtended.otf</font>
+    </family>
 
     <!-- NothingDot -->
     <family customizationType="new-named-family" name="pixelwars">
