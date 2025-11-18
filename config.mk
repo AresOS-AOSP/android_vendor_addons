@@ -154,7 +154,6 @@ PRODUCT_PACKAGES += \
 # Icon Shapes
 PRODUCT_PACKAGES += \
     IconShapeArchOverlay \
-    IconShapeCylinderOverlay \
     IconShapeIosOverlay \
     IconShapeLeafOverlay \
     IconShapePebbleOverlay \
@@ -165,7 +164,6 @@ PRODUCT_PACKAGES += \
 
 # Navbar styles
 PRODUCT_PACKAGES += \
-    NavbarAndroidOverlay \
     NavbarAsusOverlay \
     NavbarMotoOverlay \
     NavbarNexusOverlay \
@@ -173,7 +171,6 @@ PRODUCT_PACKAGES += \
     NavbarOnePlusOverlay \
     NavbarOneUiOverlay \
     NavbarSammyOverlay \
-    NavbarTecnoCamonOverlay
 
 # Signal Icons
 PRODUCT_PACKAGES += \
