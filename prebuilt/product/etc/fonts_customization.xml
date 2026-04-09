@@ -368,6 +368,15 @@
             </font>
         </family>
     </family-list>
+    <family customizationType="new-named-family" name="google-sans-flex-medium">
+        <font weight="500" style="normal">GoogleSansFlex-Regular.ttf
+            <axis stylevalue="500" tag="wght"/>
+        </font>
+        <font weight="500" style="italic">GoogleSansFlex-Regular.ttf
+            <axis stylevalue="500" tag="wght"/>
+            <axis tag="slnt" stylevalue="-10"/>
+        </font>
+    </family>
 
     <!-- baseline -->
     <!-- display -->
