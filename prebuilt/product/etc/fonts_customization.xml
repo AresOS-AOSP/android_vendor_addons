@@ -862,8 +862,8 @@
     <alias name="ibm-plex-sans-thin" to="ibm-plex-sans" weight="100"/>
     <alias name="ibm-plex-sans-light" to="ibm-plex-sans" weight="300"/>
     <alias name="ibm-plex-sans-regular" to="ibm-plex-sans" weight="400"/>
-    <alias name="ibm-plex-sans-medium" to="ibm-plex-sans" weight="400"/>
-    <alias name="ibm-plex-sans-bold" to="ibm-plex-sans" weight="400"/>
+    <alias name="ibm-plex-sans-medium" to="ibm-plex-sans" weight="500"/>
+    <alias name="ibm-plex-sans-bold" to="ibm-plex-sans" weight="700"/>
     <alias name="ibm-plex-sans-black" to="ibm-plex-sans" weight="700"/>
 
     <!-- Karamuruh -->
@@ -970,9 +970,13 @@
     <family customizationType="new-named-family" name="nothingdot">
         <font weight="400" style="normal" postScriptName="Ndot-55">NDot55Caps.otf</font>
     </family>
+    <alias name="nothingdot-medium" to="nothingdot" weight="500"/>
+    <alias name="nothingdot-bold" to="nothingdot" weight="700"/>
     <family customizationType="new-named-family" name="nothingdot57">
         <font weight="400" style="normal" postScriptName="Ndot-57">NDot57Caps.otf</font>
     </family>
+    <alias name="nothingdot57-medium" to="nothingdot57" weight="500"/>
+    <alias name="nothingdot57-bold" to="nothingdot57" weight="700"/>
     <family customizationType="new-named-family" name="nothingdot57aligned">
         <font weight="400" style="normal" postScriptName="Ndot-57-Aligned">Ndot-57-Aligned.otf</font>
     </family>
@@ -1136,6 +1140,8 @@
             Rookery-Italic.otf
         </font>
     </family>
+    <alias name="Rookery-Medium" to="Rookery-Regular" weight="500"/>
+    <alias name="Rookery-Bold" to="Rookery-Regular" weight="700"/>
 
     <!-- Roundheads -->
     <family customizationType="new-named-family" name="Roundheads">
@@ -1229,8 +1235,8 @@
     <alias name="sony_sketch-thin" to="sony_sketch" weight="100"/>
     <alias name="sony_sketch-light" to="sony_sketch" weight="300"/>
     <alias name="sony_sketch-regular" to="sony_sketch" weight="400"/>
-    <alias name="sony_sketch-medium" to="sony_sketch" weight="400"/>
-    <alias name="sony_sketch-bold" to="sony_sketch" weight="400"/>
+    <alias name="sony_sketch-medium" to="sony_sketch" weight="500"/>
+    <alias name="sony_sketch-bold" to="sony_sketch" weight="700"/>
     <alias name="sony_sketch-black" to="sony_sketch" weight="700"/>
 
     <!-- SpaceGame -->

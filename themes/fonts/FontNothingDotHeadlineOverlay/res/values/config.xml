@@ -23,7 +23,7 @@
     <!-- Name of a font family to use for headlines. If empty, falls back to platform default -->
     <string name="config_headlineFontFamily" translatable="false">nothingdot57</string>
     <!-- Name of the font family used for system surfaces where the font should use medium weight -->
-    <string name="config_headlineFontFamilyMedium" translatable="false">nothingdot57</string>
+    <string name="config_headlineFontFamilyMedium" translatable="false">nothingdot57-bold</string>
     <!-- Allows setting custom fontFeatureSettings on specific text. -->
     <string name="config_headlineFontFeatureSettings">ss03</string>
     <!-- Name of a font family to use as light font. For theming purpose. -->
