@@ -70,6 +70,8 @@ PRODUCT_PACKAGES += \
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
+    fonts_customization_emoji_ios.xml \
+    fonts_customization_emoji_samsung.xml \
     ClockFontACFilmstripOverlay \
     ClockFontAccuratistOverlay \
     ClockFontAclonicaOverlay \
@@ -227,3 +229,6 @@ PRODUCT_COPY_FILES += \
 
 # Bootanimation
 include vendor/addons/prebuilt/bootanimation/bootanimation.mk
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.ax_emoji_style=android
