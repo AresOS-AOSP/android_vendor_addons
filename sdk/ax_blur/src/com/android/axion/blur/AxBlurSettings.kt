@@ -51,15 +51,4 @@ class AxBlurSettings @JvmOverloads constructor(
         subscription = null
     }
 
-    companion object {
-        @JvmStatic
-        fun launcher(context: Context): AxBlurSettings {
-            return AxBlurSettings(context, AxBackdropBlurSettingsSpec.launcher())
-        }
-
-        @JvmStatic
-        fun launcher(context: Context, defaultRadiusPx: Float): AxBlurSettings {
-            return AxBlurSettings(context, AxBackdropBlurSettingsSpec.launcher(defaultRadiusPx))
-        }
-    }
 }

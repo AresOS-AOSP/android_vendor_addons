@@ -55,6 +55,10 @@ class AxBlurBackgroundRenderer @JvmOverloads constructor(
         blur.setEnabled(enabled)
     }
 
+    fun setBlurRadiusPx(radius: Float) {
+        blur.setBlurRadiusPx(radius)
+    }
+
     fun isCrossWindowBlurActive(): Boolean {
         return blur.isCrossWindowBlurActive()
     }
@@ -279,16 +283,6 @@ class AxBlurBackgroundRenderer @JvmOverloads constructor(
             return background.color
         }
         return fallbackColor
-    }
-
-    companion object {
-        @JvmStatic
-        fun launcher(view: View, defaultRadiusPx: Float): AxBlurBackgroundRenderer {
-            return AxBlurBackgroundRenderer(
-                view,
-                AxBackdropBlurSettingsSpec.launcher(defaultRadiusPx),
-            )
-        }
     }
 
     private class BlurGradientDrawable(

@@ -24,10 +24,6 @@ data class AxBackdropBlurSettingsSpec internal constructor(
 ) {
     companion object {
         private const val KEY_SYSTEM_BLUR_RADIUS = "system_blur_radius"
-        private const val KEY_LAUNCHER_BLUR_ENABLED = "pulse_launcher_blur_enabled"
-        private const val KEY_LAUNCHER_BLUR_RADIUS = "pulse_launcher_blur_radius"
-        private const val DEFAULT_LAUNCHER_BLUR_RADIUS_PX = 34f
-        private const val MAX_LAUNCHER_BLUR_RADIUS_PX = 100f
         private val SYSTEM = AxBackdropBlurSettingsSpec(
             enabledKey = null,
             radiusKey = KEY_SYSTEM_BLUR_RADIUS,
@@ -39,21 +35,6 @@ data class AxBackdropBlurSettingsSpec internal constructor(
         @JvmStatic
         fun system(): AxBackdropBlurSettingsSpec {
             return SYSTEM
-        }
-
-        @JvmStatic
-        @JvmOverloads
-        fun launcher(
-            defaultRadiusPx: Float = DEFAULT_LAUNCHER_BLUR_RADIUS_PX,
-            maxRadiusPx: Float = MAX_LAUNCHER_BLUR_RADIUS_PX,
-        ): AxBackdropBlurSettingsSpec {
-            return secure(
-                enabledKey = KEY_LAUNCHER_BLUR_ENABLED,
-                radiusKey = KEY_LAUNCHER_BLUR_RADIUS,
-                defaultEnabled = false,
-                defaultRadiusPx = defaultRadiusPx,
-                maxRadiusPx = maxRadiusPx,
-            )
         }
 
         @JvmStatic
